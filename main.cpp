@@ -1,17 +1,15 @@
 #include "Emulator.h"
 #include "Log.h"
 #include <string>
-#include <sstream>
-#include <iostream>
+#include <fstream>
 
 using namespace std;
 
 int main(int argc, char** argv){
 
     string LOGPATH = "simplenes.log";
-    // std::ofstream logFile(LOGPATH);
+    std::ofstream logFile(LOGPATH), cpuTraceFile;
 
-    cout << "End." << endl;
 
     return 0;
 
